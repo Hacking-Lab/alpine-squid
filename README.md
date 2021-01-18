@@ -1,2 +1,2 @@
 # alpine-squid
-Alpine Squid Docker
+Alpine Linux with squid proxy

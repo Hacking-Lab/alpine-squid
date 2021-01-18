@@ -1,0 +1,20 @@
+version: '3.6'
+
+services:
+  alpine-squid:
+    build: .
+    image: hackinglab/alpine-squid:3.2
+    environment:
+    - AUTHOR=e1
+    - HL_USER_USERNAME=hacker
+    ports:
+      - 3128:3128
+    volumes:
+      - ./share/squid.conf:/etc/squid/squid.conf
+      - ./share/filter:/etc/squid/filter
+
+
+
+
+
+
