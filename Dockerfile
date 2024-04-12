@@ -1,4 +1,4 @@
-FROM hackinglab/alpine-base:3.2
+FROM hackinglab/alpine-base-hl:3.2
 MAINTAINER Ivan Buetler <ivan.buetler@compass-security.com>
 
 #set enviromental values for certificate CA generation
