@@ -1,5 +1,5 @@
 FROM hackinglab/alpine-base-hl:3.2
-LABEL maintainer="Ivan Buetler <ivan.buetler@compass-security.com>"
+LABEL maintainer="Ivan Buetler <ivan.buetler@hacking-lab.com>"
 
 #set enviromental values for certificate CA generation
 ENV CN=squid.local \
