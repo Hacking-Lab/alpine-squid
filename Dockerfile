@@ -19,5 +19,3 @@ RUN apk add --no-cache --update \
 
 # Expose the ports for tinyproxy
 EXPOSE 3128
-
-

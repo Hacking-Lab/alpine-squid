@@ -46,7 +46,7 @@ clear_certs_db() {
 	echo "Clearing generated certificate db..."
         [[ -d /var/lib/ssl_db/ ]] && rm -rfv /var/lib/ssl_db/
 	/usr/lib/squid/security_file_certgen -c -s /var/lib/ssl_db -M 4MB
-	"$CHOWN" -R squid.squid /var/lib/ssl_db
+	"$CHOWN" -R squid:squid /var/lib/ssl_db
 }
 
 run() {
