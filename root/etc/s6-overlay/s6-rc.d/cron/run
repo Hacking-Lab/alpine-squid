@@ -1,0 +1,7 @@
+#!/command/execlineb -P
+# send stderr to stdout so s6 logs pick it up
+fdmove -c 2 1
+
+# foreground, verbose level 8, use dcron's crontab dir
+/usr/sbin/crond -f -l 8 -c /etc/crontabs
+

@@ -1,7 +1,4 @@
 #!/command/with-contenv sh
-
-#!/bin/sh
-
 set -e
 
 CHOWN=$(/usr/bin/which chown)
